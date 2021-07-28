@@ -90,6 +90,35 @@ p {
 	}
 }
 
+@media screen and (orientation: landscape) {
+	.mangaListContainer {
+		margin-left: 13%;
+	}
+
+	.mangaContainer {
+		width: 30%;
+		padding-left: 2%;
+	}
+
+	.mangaContainer:nth-child(2n-1) {
+		clear: none;
+		margin-right: 0px;
+	}
+
+	.mangaContainer:nth-child(3n+4) {
+		clear: left;
+	}
+
+	.mangaName {
+		font-size: 1.5rem;
+		height: 4rem;
+	}
+
+	.wrapper h2 {
+		font-size: 3rem;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	.mangaName {
 		font-size: 0.8rem;
@@ -101,29 +130,29 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
-	  .mangaListContainer {
-	  	margin-left: 13%;
-	  }
-	
-		.mangaContainer {
-			width: 30%;
-			padding-left: 2%;
-		}
-		
-		.mangaContainer:nth-child(2n-1) {
-			clear: none;
-			margin-right: 0px;
-		}
-		
-		.mangaContainer:nth-child(3n+4) {
-			clear: left;
-		}
-		
-		.mangaName {
-			height: 6rem;
-		}
-	
-		.wrapper h2 {
-			font-size: 5rem;
-		}
+	.mangaListContainer {
+		margin-left: 13%;
+	}
+
+	.mangaContainer {
+		width: 30%;
+		padding-left: 2%;
+	}
+
+	.mangaContainer:nth-child(2n-1) {
+		clear: none;
+		margin-right: 0px;
+	}
+
+	.mangaContainer:nth-child(3n+4) {
+		clear: left;
+	}
+
+	.mangaName {
+		height: 6rem;
+	}
+
+	.wrapper h2 {
+		font-size: 5rem;
+	}
 }
